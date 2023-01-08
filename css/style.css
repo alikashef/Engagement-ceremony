@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'IranNastaliq';
+    src: url('../fonts/IranNastaliq.eot');
+    src: url('../fonts/IranNastaliq.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/IranNastaliq.woff2') format('woff2'),
+        url('../fonts/IranNastaliq.woff') format('woff'),
+        url('../fonts/IranNastaliq.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IranYekan';
+    src: url('../fonts/Yekan\ Bakh.ttf') format('truetype');
+
+       
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: IranYekan;
+}
+
+section{
+    background-image: url(../img/Asset\ 3-100.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+.title{
+    font-family: IranNastaliq;
+}
+  html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .Sh li{
+    padding: .5rem;
+  }

@@ -68,3 +68,7 @@ section{
   .Sh li{
     padding: .5rem;
   }
+
+  .bg-color{
+    background-color: #9DF7E5;
+  }
